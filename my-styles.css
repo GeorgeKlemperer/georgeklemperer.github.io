@@ -258,11 +258,17 @@ figure {
   color: white; 
 }
 
+.pgallerycontainer > .fc6 {
+  background-image: url("images/hauntedHouseEdited.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size:cover;
+  color: #ff941a; 
+}
 
 .pgallerycontainer h3 { /*a space instead of a ">" will select all descendants of .pgallerycontainer elements*/
 margin: 10%;;
-font-size: 100%;
-/* mix-blend-mode: darken; */
+font-size: 120%;
 padding: 20px 0;
 }
 
