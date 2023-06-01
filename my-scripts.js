@@ -39,3 +39,8 @@ function scrollFunction() {
     var popup = document.getElementById("myPopup5");
     popup.classList.toggle("reveal");
   }
+
+  function popupFunction6() {
+    var popup = document.getElementById("myPopup6");
+    popup.classList.toggle("reveal");
+  }
