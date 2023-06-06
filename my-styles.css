@@ -15,7 +15,7 @@ body {
   text-justify: inter-word;
 }
 
-@media (max-width: 800px) {
+@media (max-width: 900px) {
     .pgallerycontainer {
       flex-direction: column;
       align-content: center;
@@ -86,13 +86,14 @@ body {
 
 /* Scroll Nav Bar Code */
 .scrollnavbar {
+  display: flex;
   max-width: 100vw;
   left: 0%;
   background-color: #333;
   position: fixed;
   top: -50px;
   width: 100vw;
-  display: block;
+  /* display: block; */
   transition: top 0.3s;
   z-index: 1;
 }
@@ -111,6 +112,13 @@ body {
   background-color: #ddd;
   color: black;
   cursor: pointer;
+}
+
+@media (max-width: 900px) {
+  .scrollnavbar {
+      flex-direction: column;
+      align-content: center;
+    }
 }
 /* Scroll Nav Bar Code */
 
@@ -136,7 +144,8 @@ h1 {
 
 h2 {
   margin: 0;
-  padding: 5px 0;
+  padding-top: 5px;
+  padding-bottom: 10px;
   font-size: 30px;
 }
 

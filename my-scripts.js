@@ -10,7 +10,7 @@ function scrollFunction() {
   if (document.documentElement.scrollTop > 200) {
     document.getElementById("scrollnavbar").style.top = "0";
   } else {
-    document.getElementById("scrollnavbar").style.top = "-50px";
+    document.getElementById("scrollnavbar").style.top = "-150px";
   }
 }
 
