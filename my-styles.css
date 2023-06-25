@@ -10,7 +10,7 @@ body {
   margin: 0 auto; /*When you set two values on a property like margin or padding, the first value affects the element's top and bottom side (setting it to 0 in this case); the second value affects the left and right side. (Here, auto is a special value that divides the available horizontal space evenly between left and right)/
       /* background-image: url("images/akitsushima.jpeg"); */
   background-color: whitesmoke;
-  padding: 0 10rem;
+  padding: 0.5rem 10rem;
   text-align: justify;
   text-justify: inter-word;
 }
