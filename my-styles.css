@@ -16,18 +16,18 @@ body {
 }
 
 @media (max-width: 900px) {
-    .pgallerycontainer {
-      flex-direction: column;
-      align-content: center;
-    }
-
-    .navbar {
-        flex-direction: column;
-        align-content: center;
-      }
+  .pgallerycontainer {
+    flex-direction: column;
+    align-content: center;
   }
-  /* @media is used in media queries to apply different styles in different conditions. Media queries can be used to check: width and height of viewport, width and height of device, orientation of device, and resolution.*/
-  /* This @media rule will change "flex-container" to a column when viewport < "max-width"*/
+
+  .navbar {
+    flex-direction: column;
+    align-content: center;
+  }
+}
+/* @media is used in media queries to apply different styles in different conditions. Media queries can be used to check: width and height of viewport, width and height of device, orientation of device, and resolution.*/
+/* This @media rule will change "flex-container" to a column when viewport < "max-width"*/
 
 .date {
   text-align: left;
@@ -74,34 +74,58 @@ body {
 /* End - Title Animation */
 
 .navbar {
-    display: flex;
-    position: static;
-    flex-wrap: wrap;
-    justify-content: right;
+  display: flex;
+  position: static;
+  flex-wrap: wrap;
+  justify-content: right;
 }
 
 /* remove standard hyperlink formatting for navbar */
-.navbar a:link    { color: inherit; text-decoration: none; }
-.navbar a:visited { color: inherit; text-decoration: none; }
-.navbar a:hover   { color: inherit; text-decoration: none; }
-.navbar a:active  { color: inherit; text-decoration: none; }
+.navbar a:link {
+  color: inherit;
+  text-decoration: none;
+}
+.navbar a:visited {
+  color: inherit;
+  text-decoration: none;
+}
+.navbar a:hover {
+  color: inherit;
+  text-decoration: none;
+}
+.navbar a:active {
+  color: inherit;
+  text-decoration: none;
+}
 
 /* remove standard hyperlink formatting for project gallery */
-.pgallerycontainer a:link    { color: inherit; text-decoration: none; }
-.pgallerycontainer a:visited { color: inherit; text-decoration: none; }
-.pgallerycontainer a:hover   { color: inherit; text-decoration: none; }
-.pgallerycontainer a:active  { color: inherit; text-decoration: none; }
+.pgallerycontainer a:link {
+  color: inherit;
+  text-decoration: none;
+}
+.pgallerycontainer a:visited {
+  color: inherit;
+  text-decoration: none;
+}
+.pgallerycontainer a:hover {
+  color: inherit;
+  text-decoration: none;
+}
+.pgallerycontainer a:active {
+  color: inherit;
+  text-decoration: none;
+}
 
 .navbar a {
-    text-align: center;
-    width: auto;
-    padding: 10px;
-    font-size: 25px;
+  text-align: center;
+  width: auto;
+  padding: 10px;
+  font-size: 25px;
 }
 
 .navbar a:hover {
-    -webkit-filter: opacity(50%);
-    cursor: pointer;
+  -webkit-filter: opacity(50%);
+  cursor: pointer;
 }
 
 /* Scroll Nav Bar Code */
@@ -136,9 +160,9 @@ body {
 
 @media (max-width: 900px) {
   .scrollnavbar {
-      flex-direction: column;
-      align-content: center;
-    }
+    flex-direction: column;
+    align-content: center;
+  }
 }
 /* Scroll Nav Bar Code */
 
@@ -150,15 +174,14 @@ p {
 }
 
 .haiku {
-    text-align: center;
-    
+  text-align: center;
 }
 
 h1 {
   font-size: 60px;
   margin: 0;
   margin: 30px 0;
-  color:black;
+  color: black;
   text-align: center;
 }
 
@@ -170,16 +193,16 @@ h2 {
 }
 
 .portraitfigure {
-    float: left;
-    /* width: 400px; */
-    width: 300px;
-    margin: 0 10px 0 0;
-  }
-  
-  .portraitimage {
-    width: 100%;
-    margin: 0;
-  }
+  float: left;
+  /* width: 400px; */
+  width: 300px;
+  margin: 0 10px 0 0;
+}
+
+.portraitimage {
+  width: 100%;
+  margin: 0;
+}
 
 figure {
   margin: 0;
@@ -188,13 +211,13 @@ figure {
 @media (max-width: 800px) {
   /* To centre image need to turn off float and set side margins to auto */
   .portraitfigure {
-    float: none; 
-    margin: 0 auto; 
+    float: none;
+    margin: 0 auto;
   }
 }
 
 .smlinks {
-    margin: 20px 0 0 0;
+  margin: 20px 0 0 0;
 }
 
 .sml {
@@ -209,11 +232,9 @@ figure {
 }
 
 .social-media-logos:hover {
-    -webkit-filter: opacity(50%);
+  -webkit-filter: opacity(50%);
 }
 /*sets images with "social-media-logos" class to a set gheight width and padding */
-
-
 
 /* Project Gallery CSS Pasted Below */
 .pgallerycontainer {
@@ -226,9 +247,9 @@ figure {
 /* by default flex items are laid out in source order */
 
 @media (max-width: 600px) {
-body {
-  padding: 1rem;
-}
+  body {
+    padding: 1rem;
+  }
 
   .pgallerycontainer {
     flex-direction: column;
@@ -238,11 +259,11 @@ body {
 /* @media is used in media queries to apply different styles in different conditions. Media queries can be used to check: width and height of viewport, width and height of device, orientation of device, and resolution.*/
 /* This @media rule will change "flex-container" to a column when viewport < "max-width"*/
 
-
-.pgallerycontainer > div { /*this will target <div> elements that are direct children (>) of .flex-container elements)*/
+.pgallerycontainer > div {
+  /*this will target <div> elements that are direct children (>) of .flex-container elements)*/
   /* background-color: #f1f1f1; */
   flex: auto;
-  width:300px;
+  width: 300px;
   height: 200px;
   max-width: 600px;
   margin: 10px;
@@ -257,7 +278,7 @@ body {
   /* background-repeat: no-repeat; */
   background-position: center;
   background-size: 800px;
-  color:black
+  color: black;
 }
 
 .pgallerycontainer > .fc2 {
@@ -267,7 +288,7 @@ body {
   background-size: 700px;
   background-position-y: 50%;
   /* background-size: cover; */
-  color: white; 
+  color: white;
 }
 
 .pgallerycontainer > .fc3 {
@@ -276,7 +297,7 @@ body {
   background-position: center;
   background-size: 400px;
   background-size: cover;
-  color: white; 
+  color: white;
 }
 
 .pgallerycontainer > .fc4 {
@@ -284,50 +305,51 @@ body {
   /* background-repeat: no-repeat; */
   background-position: center;
   background-size: auto;
-  color: red; 
+  color: red;
 }
 
 .pgallerycontainer > .fc5 {
   background-image: url("images/colourPalette.png");
   /* background-repeat: no-repeat; */
   background-position: center;
-  background-size:contain;
-  color: white; 
+  background-size: contain;
+  color: white;
 }
 
 .pgallerycontainer > .fc6 {
   background-image: url("images/hauntedHouseEdited.jpg");
   background-repeat: no-repeat;
   background-position: center;
-  background-size:cover;
-  color: #ff941a; 
+  background-size: cover;
+  color: #ff941a;
 }
 
-.pgallerycontainer h3 { /*a space instead of a ">" will select all descendants of .pgallerycontainer elements*/
-margin: 10%;;
-font-size: 100%;
-padding: 20px 0;
+.pgallerycontainer h3 {
+  /*a space instead of a ">" will select all descendants of .pgallerycontainer elements*/
+  margin: 10%;
+  font-size: 100%;
+  padding: 20px 0;
 }
 
-.pgallerycontainer button { /*a space instead of a ">" will select all descendants of .flex-container elements*/
+.pgallerycontainer button {
+  /*a space instead of a ">" will select all descendants of .flex-container elements*/
   border: none;
-appearance: none;
-background-color: inherit;
-background: none;
-  }
+  appearance: none;
+  background-color: inherit;
+  background: none;
+}
 
-  .buttonimage {
-      width: 15%;
-      cursor: pointer;
-      float: right;
-      margin:2.5% 2.5%;
-      padding: 0;
-  }
+.buttonimage {
+  width: 15%;
+  cursor: pointer;
+  float: right;
+  margin: 2.5% 2.5%;
+  padding: 0;
+}
 
-  .buttonimage:active {
-      filter: brightness(50%);
-  }
-
+.buttonimage:active {
+  filter: brightness(50%);
+}
 
 /* Popup container */
 .popup {
