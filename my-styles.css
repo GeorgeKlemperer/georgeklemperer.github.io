@@ -324,6 +324,14 @@ figure {
   color: #ff941a;
 }
 
+.pgallerycontainer > .fc7 {
+  background-image: url("images/pillars-of-creation.jpeg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  color: white;
+}
+
 .pgallerycontainer h3 {
   /*a space instead of a ">" will select all descendants of .pgallerycontainer elements*/
   margin: 10%;
