@@ -263,9 +263,9 @@ figure {
   /*this will target <div> elements that are direct children (>) of .flex-container elements)*/
   /* background-color: #f1f1f1; */
   flex: auto;
-  width: 300px;
+  min-width: 300px;
   height: 200px;
-  max-width: 600px;
+  /* max-width: 600px; */
   margin: 10px;
   text-align: center;
   line-height: normal;
@@ -325,16 +325,16 @@ figure {
 }
 
 .pgallerycontainer > .fc7 {
-  background-image: url("images/pillars-of-creation.jpeg");
+  background-image: url("images/bujobackground.png");
   background-repeat: no-repeat;
   background-position: center;
-  background-size: cover;
-  color: white;
+  /* background-size: cover; */
+  color: black;
 }
 
 .pgallerycontainer h3 {
   /*a space instead of a ">" will select all descendants of .pgallerycontainer elements*/
-  margin: 10%;
+  margin: 2rem 10%;
   font-size: 100%;
   padding: 20px 0;
 }
