@@ -340,6 +340,14 @@ figure {
   color: black;
 }
 
+.pgallerycontainer > .fc9 {
+  background-image: url("images/wordle.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  color: black;
+}
+
 .pgallerycontainer h3 {
   /*a space instead of a ">" will select all descendants of .pgallerycontainer elements*/
   margin: 2rem 10%;
