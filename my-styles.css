@@ -363,6 +363,31 @@ figure {
   background: none;
 }
 
+.further-projects {
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin: 20px;
+  max-width: 400px;
+}
+
+.further-projects p {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.further-projects a {
+  text-decoration: none;
+  color: #0074d9; /* Link color */
+  transition: color 0.3s;
+}
+
+.further-projects a:hover {
+  color: #0056b3; /* Hover color */
+}
+
 .buttonimage {
   width: 15%;
   cursor: pointer;
